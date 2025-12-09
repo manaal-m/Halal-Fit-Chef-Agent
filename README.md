@@ -55,21 +55,21 @@ Prerequisites
 * The git command line tool
 
 1. Clone the Repository and Setup Environment
-```# Clone the project (Replace with your actual repo link)
+``# Clone the project (Replace with your actual repo link)
 git clone https://github.com/yourusername/Halal-Fit-Chef-Agent-Capstone.git
-cd Halal-Fit-Chef-Agent-Capstone
+cd Halal-Fit-Chef-Agent-Capstone``
 
-# Create and activate the virtual environment
-python -m venv venv
-# On Windows PowerShell:
-.\venv\Scripts\Activate.ps1```
+``# Create and activate the virtual environment
+python -m venv venv``
+``# On Windows PowerShell:
+.\venv\Scripts\Activate.ps1``
 
 2. Install Dependencies
-```pip install -r requirements.txt```
+``pip install -r requirements.txt``
 
 3. Run the Agent
-Execute the main script. The output log will detail every step of the agent workflow, from constraint collection to final plan compilation.
-```python main.py```
+``Execute the main script. The output log will detail every step of the agent workflow, from constraint collection to final plan compilation.
+python main.py``
 
 
 
